@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="testNG.Amazontng">
+        <methods>
+          <include name="Amazon"/>
+        </methods>
+      </class> <!-- testNG.Amazontng -->
+      <class name="testNG.Facebooktng">
+        <methods>
+          <include name="Facebook"/>
+        </methods>
+      </class> <!-- testNG.Facebooktng -->
+      <class name="testNG.Googletng">
+        <methods>
+          <include name="Google"/>
+        </methods>
+      </class> <!-- testNG.Googletng -->
+      <class name="testNG.Flipkarttng">
+        <methods>
+          <include name="Flipkart"/>
+        </methods>
+      </class> <!-- testNG.Flipkarttng -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
